@@ -11,7 +11,7 @@
     "type": "git"
   },
   "scripts": {
-    "test": "mkdir -p tmp; mocha"
+    "test": "mkdir -p tmp; ./node_modules/mocha/bin/mocha"
   },
   "author": "Rob Dingwell <rob@mitre.org",
   "contributors": [
